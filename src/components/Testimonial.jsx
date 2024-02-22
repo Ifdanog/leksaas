@@ -6,10 +6,10 @@ import arrowRight from "../assets/arrow-right.png";
 const Testimonial = () => {
   return (
     <div className="p-20">
-      <div className="flex items-center justify-between">
+      <div className="md:flex items-center justify-between">
         <div className="flex gap-4 ">
-          <img src={quote} className="w-[4rem]" alt="" />
-          <h3 className="w-[20rem] text-2xl font-semibold">
+          <img src={quote} className="w-[2.5rem] h-[2rem] md:w-[4rem]" alt="" />
+          <h3 className="w-[20rem] md:text-2xl font-semibold">
             What Are People Saying About My Work
           </h3>
         </div>
@@ -18,7 +18,7 @@ const Testimonial = () => {
           <img src={arrowRight} className="w-[3rem]" alt="" />
         </div>
       </div>
-      <div className="mt-10 flex items-center">
+      <div className="mt-10 md:flex items-center">
         <div className="flex-1">
           <p className="text-xs italic leading-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,

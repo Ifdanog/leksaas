@@ -6,10 +6,10 @@ const Banner = () => {
   return (
     <section className="bg-banner">
       <Nav />
-      <div className="flex px-20 py-14 items-center">
+      <div className="md:flex px-8 md:px-20 py-14 items-center">
         <div className="flex-1 -mt-10">
-          <p className="text-sm">Hello World!</p>
-          <h1 className="text-6xl font-black overflow-hidden py-1">
+          <p className="text-sm">Hello World!👋</p>
+          <h1 className="text-4xl lg:text-6xl font-black overflow-hidden py-1">
             I'm Lekside
           </h1>
           <span className="text-[#FF8C92] font-medium block">
@@ -21,9 +21,11 @@ const Banner = () => {
             facere odio eius accusantium placeat commodi, autem, quae est magni.
             Libero, omnis.
           </p>
-          <button className="py-2 px-8 rounded-full bg-[#263238] text-white text-sm">
-            Hire Me
-          </button>
+          <a href="https://wa.link/oyds3e" target="_blank">
+            <button className="py-2 px-8 rounded-full bg-[#263238] text-white text-sm">
+              Hire Me
+            </button>
+          </a>
         </div>
         <div className="flex-1">
           <img src={bannerImg} className="w-3/4 mx-auto" alt="" />
