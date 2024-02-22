@@ -15,9 +15,11 @@ const Skills = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nostrum
         deleniti molestiae tempore officiis.
       </p>
-      <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
-        Download Resume
-      </button>
+      <a href="Motion-design-saas-resume.pdf">
+        <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
+          Download Resume
+        </button>
+      </a>
       <img
         src={afterEffect}
         alt=""
