@@ -6,6 +6,7 @@ import productHunt from "../assets/product-hunt.svg";
 import telegram from "../assets/telegram-1.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import letsChat from "../assets/letschat.png";
+
 const Footer = () => {
   return (
     <div className="p-8 md:p-20">
@@ -83,7 +84,7 @@ const Footer = () => {
             &copy; by DevDan 2024
           </a>
           <a href="mailto:ogunniyidanif18@gmail.com">
-            <img src={letsChat} alt="" className="w-1/2 mt-4" />
+            <img src={letsChat} alt="" className="w-1/4 md:w-1/2 mt-4" />
           </a>
         </ul>
       </div>

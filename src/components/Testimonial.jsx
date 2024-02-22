@@ -5,10 +5,14 @@ import arrowRight from "../assets/arrow-right.png";
 
 const Testimonial = () => {
   return (
-    <div className="p-20">
+    <div className="p-8 md:p-20">
       <div className="md:flex items-center justify-between">
         <div className="flex gap-4 ">
-          <img src={quote} className="w-[2.5rem] h-[2rem] md:w-[4rem]" alt="" />
+          <img
+            src={quote}
+            className="w-[2.5rem] h-[2.5rem] md:h-[4rem] md:w-[4rem]"
+            alt=""
+          />
           <h3 className="w-[20rem] md:text-2xl font-semibold">
             What Are People Saying About My Work
           </h3>

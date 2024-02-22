@@ -2,9 +2,9 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="w-full h-[2rem] py-8 px-20 flex justify-between items-center overflow-hidden">
+    <nav className="w-full h-[6rem] md:h-[2rem] py-8 px-8 md:px-20 block md:flex justify-between items-center overflow-hidden">
       <h1 className="font-bold text-xl">Lekside</h1>
-      <ul className="flex gap-4 items-center text-sm">
+      <ul className="bg-[pink] md:bg-transparent flex gap-4 items-center text-sm mt-2 md:mt-0">
         <li>
           <a href="#about">About</a>
         </li>
