@@ -5,6 +5,11 @@ import figma from "../assets/figma.webp";
 import blender from "../assets/blender.webp";
 
 const Skills = () => {
+  const handleDownload = () => {
+    const pdfFile = "./src/assets/motion-design-saas-resume.pdf";
+
+    window.open(pdfFile, "_blank");
+  };
   return (
     <div
       id="portfolio"
@@ -15,11 +20,12 @@ const Skills = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nostrum
         deleniti molestiae tempore officiis.
       </p>
-      <a href="Motion-design-saas-resume.pdf">
-        <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
-          Download Resume
-        </button>
-      </a>
+      <button
+        className="px-6 py-2 bg-white rounded-full mt-4 text-xs"
+        onClick={handleDownload}
+      >
+        Download Resume
+      </button>
       <img
         src={afterEffect}
         alt=""
@@ -28,7 +34,7 @@ const Skills = () => {
       <img
         src={adobePremiere}
         alt=""
-        className="w-[4rem] lg:w-[8rem] absolute bottom-6 right-[30%]"
+        className="w-[4rem] lg:w-[8rem] absolute bottom-6 right-[25%]"
       />
       <img
         src={adobeIllustrator}
@@ -39,7 +45,7 @@ const Skills = () => {
       <img
         src={blender}
         alt=""
-        className="w-[6rem] lg:w-[10rem] absolute bottom-6 left-[28%]"
+        className="w-[6rem] lg:w-[10rem] absolute bottom-6 left-[22%]"
       />
     </div>
   );
