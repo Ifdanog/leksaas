@@ -4,6 +4,7 @@ import linkedin from "../assets/In.svg";
 import behance from "../assets/behance-1.svg";
 import productHunt from "../assets/product-hunt.svg";
 import telegram from "../assets/telegram-1.svg";
+import tiktok from "../assets/tiktok.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import letsChat from "../assets/letschat.png";
 
@@ -70,6 +71,9 @@ const Footer = () => {
             </a>
             <a href="https://wa.link/oyds3e" target="_blank">
               <img src={whatsapp} alt="" className="w-[1.5rem]" />
+            </a>
+            <a href="https://vm.tiktok.com/ZMMeGr1cx/" target="_blank">
+              <img src={tiktok} alt="" className="w-[1.5rem]" />
             </a>
           </div>
         </ul>

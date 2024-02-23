@@ -4,6 +4,7 @@ import linkedin from "../assets/In.svg";
 import behance from "../assets/behance-1.svg";
 import productHunt from "../assets/product-hunt.svg";
 import telegram from "../assets/telegram-1.svg";
+import tiktok from "../assets/tiktok.svg";
 import whatsapp from "../assets/whatsapp.svg";
 
 const About = () => {
@@ -75,6 +76,14 @@ const About = () => {
           >
             <img src={whatsapp} alt="" className="w-[1.5rem]" />
             <p className="text-xs">WhatsApp</p>
+          </a>
+          <a
+            href="https://vm.tiktok.com/ZMMeGr1cx/"
+            target="_blank"
+            className="bg-white py-2 px-4 flex gap-2 items-center rounded-full"
+          >
+            <img src={tiktok} alt="" className="w-[1.5rem]" />
+            <p className="text-xs">Tiktok</p>
           </a>
         </div>
       </div>
