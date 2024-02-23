@@ -7,8 +7,10 @@ const Contact = () => {
         <div className="md:w-1/3">
           <h3 className="text-xl lg:text-3xl font-bold py-2">Contact Me</h3>
           <p className="text-xs leading-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem,
-            illo laboriosam praesentium minus obcaecati nisi!
+            Connect with me to explore collaborations, discuss projects, or
+            simply share ideas. Your inquiries are valued and I look forward to
+            hearing from you. Let's embark on creative journeys together—reach
+            out and let's make magic happen.
           </p>
         </div>
         <div className="md:w-2/3">

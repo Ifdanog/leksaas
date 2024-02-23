@@ -6,18 +6,18 @@ const Portfolio = () => {
     >
       <h3 className="text-xl lg:text-3xl font-bold py-2">My Projects</h3>
       <p className="text-xs md:w-1/3 mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nostrum
-        deleniti molestiae tempore officiis.
+        Here are some of the projects, I have worked on, both for clients and
+        personal projects.
       </p>
       <div className="mt-10">
         <div className="bg-[pink] py-10 px-8 md:px-20 md:flex items-center gap-4">
           <div className="flex-1 text-left">
             <h3 className="font-bold">SaaS Platform Explainer Video</h3>
             <p className="text-xs">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              facere, tenetur quam voluptatem excepturi vero alias consectetur
-              et natus, perspiciatis esse reprehenderit? Accusantium quasi vero
-              temporibus exercitationem sequi cum hic?
+              Tailored for product designers and owners. Streamline organization
+              and collaboration, empowering teams to spread out their creativity
+              and deliver exceptional results. Join us in revolutionizing the
+              way you bring your product visions to life.
             </p>
             <button className="px-6 py-2 bg-white rounded-full my-4 text-xs">
               See More
@@ -51,10 +51,10 @@ const Portfolio = () => {
             <div className="flex-1 text-left">
               <h3 className="font-bold mt-4">SaaS Animation Explainer Video</h3>
               <p className="text-xs">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                facere, tenetur quam voluptatem excepturi vero alias consectetur
-                et natus, perspiciatis esse reprehenderit? Accusantium quasi
-                vero temporibus exercitationem sequi cum hic?
+                Revolutionize organization for buyers and sellers with seamless
+                work coordination. Enjoy drag-and-drop simplicity for website
+                design, empowering users to craft stunning digital landscapes
+                effortlessly.
               </p>
               <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
                 See More
@@ -67,10 +67,10 @@ const Portfolio = () => {
             <div className="flex-1 text-left">
               <h3 className="font-bold">Fullview Explainer Video</h3>
               <p className="text-xs">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                facere, tenetur quam voluptatem excepturi vero alias consectetur
-                et natus, perspiciatis esse reprehenderit? Accusantium quasi
-                vero temporibus exercitationem sequi cum hic?
+                Your solution for streamlined organization and issue management.
+                Empower support teams to tackle customer inquiries effectively
+                and enhance overall service delivery. Experience the difference
+                with Fulview
               </p>
               <button className="px-6 py-2 bg-white rounded-full my-4 text-xs">
                 See More
@@ -105,10 +105,9 @@ const Portfolio = () => {
             <div className="flex-1 text-left">
               <h3 className="font-bold mt-4">SaaS Explainer Video</h3>
               <p className="text-xs">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                facere, tenetur quam voluptatem excepturi vero alias consectetur
-                et natus, perspiciatis esse reprehenderit? Accusantium quasi
-                vero temporibus exercitationem sequi cum hic?
+                Seamlessly capture leads and streamline organization for
+                unparalleled efficiency. Transform your sales pipeline with
+                intuitive tools designed to maximize conversions.
               </p>
               <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
                 See More
@@ -121,10 +120,10 @@ const Portfolio = () => {
             <div className="flex-1 text-left">
               <h3 className="font-bold">Safe Monitor Explainer Video</h3>
               <p className="text-xs">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                facere, tenetur quam voluptatem excepturi vero alias consectetur
-                et natus, perspiciatis esse reprehenderit? Accusantium quasi
-                vero temporibus exercitationem sequi cum hic?
+                Your shield against fraud. Stay ahead with real-time
+                notifications on suspicious activities, ensuring your safety
+                online. Empower yourself with proactive security measures and
+                peace of mind."
               </p>
               <button className="px-6 py-2 bg-white rounded-full my-4 text-xs">
                 See More

@@ -25,10 +25,10 @@ const Testimonial = () => {
       <div className="mt-10 md:flex items-center">
         <div className="flex-1">
           <p className="text-xs italic leading-6">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
-            pariatur numquam dolore impedit doloribus possimus sapiente
-            voluptatibus reprehenderit sit id quas tempore ipsum, voluptatum,
-            repudiandae corporis. Quos consequuntur aut esse.
+            Our SaaS animation project received rave reviews! Users praised its
+            intuitive interface, seamless animations, and ability to bring
+            concepts to life effortlessly. The feedback underscores our
+            commitment to delivering top-notch animation solutions.
           </p>
           <h3 className="font-medium">Nancey Ubban</h3>
           <span className="text-xs">CTO, Daba</span>

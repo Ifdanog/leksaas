@@ -10,8 +10,10 @@ const Yearsofexperience = () => {
         <div className="lg:w-3/4">
           <h3 className="text-xl font-bold">Years Experience in Field</h3>
           <p className="text-xs">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-            repellat nesciunt cupiditate cum eaque!
+            With 5 years of experience pioneering SaaS animation solutions, I've
+            crafted immersive digital experiences, blending innovation and
+            design seamlessly. My expertise in SaaS animation empowers creators
+            to bring their visions to life effortlessly.
           </p>
         </div>
       </div>

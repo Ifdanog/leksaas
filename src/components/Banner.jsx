@@ -16,10 +16,8 @@ const Banner = () => {
             SaaS Animator
           </span>
           <p className="text-sm leading-7 my-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
-            atque debitis! Deserunt aspernatur totam iure sed ut, dignissimos
-            facere odio eius accusantium placeat commodi, autem, quae est magni.
-            Libero, omnis.
+            Innovation meets artistry to breathe life into your visions. Join me
+            and animate your way to the future
           </p>
           <a href="https://wa.link/oyds3e" target="_blank">
             <button className="py-2 px-8 rounded-full bg-[#263238] text-white text-sm">

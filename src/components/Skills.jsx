@@ -5,11 +5,6 @@ import figma from "../assets/figma.webp";
 import blender from "../assets/blender.webp";
 
 const Skills = () => {
-  const handleDownload = () => {
-    const pdfFile = "./src/assets/motion-design-saas-resume.pdf";
-
-    window.open(pdfFile, "_blank");
-  };
   return (
     <div
       id="portfolio"
@@ -17,15 +12,19 @@ const Skills = () => {
     >
       <h3 className="text-xl lg:text-3xl font-bold py-2">Professional Skill</h3>
       <p className="text-xs md:w-1/3 mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nostrum
-        deleniti molestiae tempore officiis.
+        Proficient in SaaS animation with expertise in Adobe After Effects,
+        Blender, figma, Adobe Premiere Pro and Adobe Illustrator. Skilled in
+        creating captivating visuals, dynamic effects, and seamless
+        storytelling.
       </p>
-      <button
-        className="px-6 py-2 bg-white rounded-full mt-4 text-xs"
-        onClick={handleDownload}
+      <a
+        href="motion-design-saas-resume.pdf"
+        download="motion-design-saas-resume.pdf"
       >
-        Download Resume
-      </button>
+        <button className="px-6 py-2 bg-white rounded-full mt-4 text-xs">
+          Download Resume
+        </button>
+      </a>
       <img
         src={afterEffect}
         alt=""
