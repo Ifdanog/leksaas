@@ -1,9 +1,15 @@
 import video from "../assets/video.mp4";
+import { motion } from "framer-motion";
 
 const Yearsofexperience = () => {
   return (
-    <div className="px-8 md:px-20 py-10 md:flex items-center">
-      <div className="lg:flex gap-4 lg:w-[40%] mx-auto">
+    <section className="px-8 md:px-20 py-10 md:flex items-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="lg:flex gap-4 lg:w-[40%] mx-auto"
+      >
         <h2 className="lg:w-1/4 text-6xl font-black overflow-hidden pr-4 text-[#FF8C92]">
           05
         </h2>
@@ -16,14 +22,14 @@ const Yearsofexperience = () => {
             to bring their visions to life effortlessly.
           </p>
         </div>
-      </div>
+      </motion.div>
       <div className="lg:w-1/3 flex flex-1 mx-auto mt-8 md:mt-0">
         <video controls>
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
-    </div>
+    </section>
   );
 };
 

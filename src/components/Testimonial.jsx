@@ -2,10 +2,11 @@ import quote from "../assets/Quote-icon.png";
 import people from "../assets/people.png";
 import arrowLeft from "../assets/arrow-left.png";
 import arrowRight from "../assets/arrow-right.png";
+import { motion } from "framer-motion";
 
 const Testimonial = () => {
   return (
-    <div className="p-8 md:p-20">
+    <section className="p-8 md:p-20">
       <div className="md:flex items-center justify-between">
         <div className="flex gap-4 ">
           <img
@@ -23,7 +24,12 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="mt-10 md:flex items-center">
-        <div className="flex-1">
+        <motion.div
+          initial={{ transform: "translateX(-100%)", opacity: 0 }}
+          whileInView={{ transform: "translateX(0)", opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="flex-1"
+        >
           <p className="text-xs italic leading-6">
             Our SaaS animation project received rave reviews! Users praised its
             intuitive interface, seamless animations, and ability to bring
@@ -32,12 +38,17 @@ const Testimonial = () => {
           </p>
           <h3 className="font-medium">Nancey Ubban</h3>
           <span className="text-xs">CTO, Daba</span>
-        </div>
-        <div className="flex-1">
+        </motion.div>
+        <motion.div
+          initial={{ transform: "translateX(100%)", opacity: 0 }}
+          whileInView={{ transform: "translateX(0)", opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="flex-1"
+        >
           <img src={people} className="w-3/4 mx-auto" alt="" />
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

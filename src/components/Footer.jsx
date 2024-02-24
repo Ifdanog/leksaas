@@ -10,7 +10,7 @@ import letsChat from "../assets/letschat.png";
 
 const Footer = () => {
   return (
-    <div className="p-8 md:p-20">
+    <section className="p-8 md:p-20">
       <div className="md:flex">
         <h3 className="md:w-1/4 lg:w-2/5 text-xl lg:text-3xl font-bold py-2">
           Lekside
@@ -92,7 +92,7 @@ const Footer = () => {
           </a>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

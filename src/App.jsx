@@ -9,7 +9,7 @@ import Yearsofexperience from "./components/Yearsofexperience";
 
 function App() {
   return (
-    <div>
+    <>
       <Banner />
       <Yearsofexperience />
       <Skills />
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

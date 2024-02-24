@@ -9,7 +9,7 @@ import whatsapp from "../assets/whatsapp.svg";
 
 const About = () => {
   return (
-    <div id="about" className="py-10 px-8 md:px-20">
+    <section id="about" className="py-10 px-8 md:px-20">
       <div className="bg-[#263238] mx-auto text-center py-20 rounded-xl mt-20">
         <h3 className="text-xl w-2/3 mx-auto font-bold  text-[#999]">
           Hey👋 I’m Lekside, a SaaS Animator with 05 years experience sketching,
@@ -87,7 +87,7 @@ const About = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
